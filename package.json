@@ -1,0 +1,36 @@
+{
+  "name": "@sharpinit/codemod",
+  "version": "0.0.1",
+  "description": "Sharpinit's codemod",
+  "main": "index.js",
+  "files": [
+    "transforms/**"
+  ],
+  "scripts": {
+    "build": "esbuild index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vimutti77/codemod.git"
+  },
+  "keywords": [
+    "codemod",
+    "jscodeshift"
+  ],
+  "author": "vimutti77",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vimutti77/codemod/issues"
+  },
+  "homepage": "https://github.com/vimutti77/codemod#readme",
+  "devDependencies": {
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "prettier-plugin-organize-imports": "^3.0.3"
+  },
+  "dependencies": {
+    "jscodeshift": "^0.13.1",
+    "yargs": "^17.5.1"
+  }
+}

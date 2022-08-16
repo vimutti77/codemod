@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`direct-import test\\fixtures\\direct-import\\default.input.js 1`] = `
+"import Abc from \\"@mui/icons-material/Abc\\";
+import PinDropIcon from \\"@mui/icons-material/PinDrop\\";
+import Analytics from \\"@mui/icons-material/Analytics\\";
+import AbcOutlinedIcon from \\"@mui/icons-material/AbcOutlined\\";"
+`;
