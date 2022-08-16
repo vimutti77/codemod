@@ -5,7 +5,6 @@
 module.exports = (fileInfo, api, options) => {
   const j = api.jscodeshift
   const includeModules = options.modules?.split(',') ?? []
-  console.log(includeModules, options)
 
   if (includeModules.length === 0) return fileInfo.source
 

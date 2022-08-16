@@ -1,11 +1,9 @@
 {
   "name": "@sharpinit/codemod",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Sharpinit's codemod",
-  "main": "index.js",
-  "files": [
-    "transforms/**"
-  ],
+  "bin": "index.js",
+  "files": ["index.js", "transforms/**"],
   "scripts": {
     "build": "esbuild index.js",
     "test": "jest"

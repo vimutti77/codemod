@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 /* eslint-disable import/no-extraneous-dependencies */
 const childProcess = require('child_process')
 const { promises: fs } = require('fs')
