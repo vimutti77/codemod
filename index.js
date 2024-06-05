@@ -118,7 +118,7 @@ yargs
     },
     handler: run,
   })
-  .scriptName('npx @sharpinit/codemod')
+  .scriptName('pnpx @sharpinit/codemod')
   .example('$0 app')
   .help()
   .parse()
