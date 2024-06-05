@@ -3,22 +3,15 @@
   "version": "1.0.0",
   "description": "Sharpinit's codemod",
   "bin": "index.js",
-  "files": [
-    "index.js",
-    "transforms/**"
-  ],
+  "files": ["index.js", "transforms/**"],
   "scripts": {
-    "build": "esbuild index.js",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vimutti77/codemod.git"
   },
-  "keywords": [
-    "codemod",
-    "jscodeshift"
-  ],
+  "keywords": ["codemod", "jscodeshift"],
   "author": "vimutti77",
   "license": "MIT",
   "bugs": {
